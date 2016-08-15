@@ -20,6 +20,6 @@ app.controller('SuggestionController', ['$scope', '$routeParams', 'suggestions',
 		comment.upvotes += 1;
 	};
 
-	$scope.new_comment = "";
+	//$scope.new_comment = "";
 
 }]);
